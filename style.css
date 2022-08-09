@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16264a;
+    font-family: sans-serif;
+    background-image: url(empresa.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.init {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    width: 420;
+}
+
+h2 {
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.frm {
+    font-size: 17px;
+}
+
+form {
+    display: flex;
+	background-color: #ccc;
+	width: 30%;
+	border-radius: 30px;
+	padding:20px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+input {
+    height: 32px;
+    width: 350px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+}
+
+.btm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(2,177,223,1);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+@media (max-width:600px) {
+    
+
+}
